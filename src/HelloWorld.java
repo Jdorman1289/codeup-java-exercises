@@ -1,6 +1,10 @@
 public class HelloWorld {
 
     public static void main(String[] args) {
-        System.out.println(Double.MAX_VALUE);
+        String greeting = "Salutations";
+        String name = "codeup";
+        System.out.printf("%s, %s!", greeting, name);
+
+
     }
 }
