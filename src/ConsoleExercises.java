@@ -5,5 +5,6 @@ public class ConsoleExercises {
 
         System.out.printf("The value of pi is approximately %.2f", pi);
 
+
     }
 }
