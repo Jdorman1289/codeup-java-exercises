@@ -9,12 +9,12 @@ public class Bob {
         contextCheck = sc.nextLine();
 
         if(contextCheck.isEmpty()) {
-            System.out.println("\nBob: Fine. Be that way!");
+            System.out.println("Bob: Fine. Be that way!");
         } else {
             char mark = contextCheck.charAt(contextCheck.length()-1);
 
             if (mark == '!') {
-                System.out.println("\nBob: Whoa, chill out!");
+                System.out.println("Bob: Whoa, chill out!");
             } else if (mark == '?') {
                 System.out.println("Bob: Sure");
             } else {
