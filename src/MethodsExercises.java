@@ -30,7 +30,7 @@ public class MethodsExercises {
             Scanner sc = new Scanner(System.in);
             System.out.print("Enter a number between 1 and 10: ");
             int userNum = sc.nextInt();
-            getInteger(userNum);
+             return getInteger(userNum);
         }
         
         return answer;
