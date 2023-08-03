@@ -1,18 +1,18 @@
 public class MethodsExercises {
 
-    public static long addThem(long num1, long num2) {
+    public static double addThem(double num1, double num2) {
         return num1 + num2;
     }
 
-    public static long minusThem(long num1, long num2) {
+    public static double minusThem(double num1, double num2) {
         return num1 - num2;
     }
 
-    public static long multiplyThem(long num1, long num2) {
+    public static double multiplyThem(double num1, double num2) {
         return num1 * num2;
     }
 
-    public static long divideThem(long num1, long num2) {
+    public static double divideThem(double num1, double num2) {
         return num1 / num2;
     }
 
