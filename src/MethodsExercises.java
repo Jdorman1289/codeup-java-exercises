@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class MethodsExercises {
 
     public static double addThem(double num1, double num2) {
@@ -20,13 +22,32 @@ public class MethodsExercises {
         return num1 / num2;
     }
 
+    public static int getInteger(int num) {
+        int answer = 0;
+        if (num >= 1 && num <= 10) {
+            answer = num;
+        } else {
+            Scanner sc = new Scanner(System.in);
+            System.out.print("Enter a number between 1 and 10: ");
+            int userNum = sc.nextInt();
+            getInteger(userNum);
+        }
+        
+        return answer;
+
+    }
+
+
     public static void main(String[] args) {
 
-        System.out.println(addThem(4,4));
-        System.out.println(addThem(4.4,4.4));
-        System.out.println(minusThem(4,4));
-        System.out.println(multiplyThem(4,4));
-        System.out.println(divideThem(4,4));
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number between 1 and 10: ");
+
+        int userNum = sc.nextInt();
+
+        System.out.println(getInteger(userNum));
+
 
     }
 }
