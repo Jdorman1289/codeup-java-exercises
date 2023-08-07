@@ -10,7 +10,7 @@ public class InputTest {
         System.out.println("You entered: " + input.getString());
 
         System.out.println("Enter y or yes (case doesn't matter): ");
-        System.out.println("You entered: " + (input.yesNo() ? "The happy path" : "The sad path"));
+        System.out.println("You went with: " + (input.yesNo() ? "The happy path" : "The sad path"));
 
         System.out.println("You entered: " + input.getInt());
 
