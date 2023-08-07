@@ -16,8 +16,9 @@ public class InputTest {
 
         System.out.println("You entered: " + input.getInt(1, 10));
 
+        System.out.println("You entered: " + input.getDouble());
+
         System.out.println("You entered: " + input.getDouble(1.0, 10.0));
 
-        System.out.println("You entered: " + input.getDouble());
     }
 }
