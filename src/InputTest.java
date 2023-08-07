@@ -12,9 +12,9 @@ public class InputTest {
         System.out.println("Enter y or yes (case doesn't matter): ");
         System.out.println("You entered: " + (input.yesNo() ? "yes" : "no"));
 
-        System.out.println("You entered: " + input.getInt(1, 10));
-
         System.out.println("You entered: " + input.getInt());
+
+        System.out.println("You entered: " + input.getInt(1, 10));
 
         System.out.println("You entered: " + input.getDouble(1.0, 10.0));
 
