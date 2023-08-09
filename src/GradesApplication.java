@@ -39,15 +39,14 @@ public class GradesApplication {
 
         while (keepGoing) {
             System.out.println("Welcome!");
-            System.out.println("Here are the GitHub usernames of our students:");
+            System.out.printf("Here are the GitHub usernames of our students:%n%n");
 
 
             for (String username : students.keySet()) {
                 System.out.print("|" + username + "| ");
             }
-            System.out.println();
 
-            System.out.println("Which student would you like to see more information about?");
+            System.out.printf("%n%nWhich student would you like to see more information about?%n");
             String input = scanner.nextLine();
 
             if (students.containsKey(input)) {
