@@ -8,7 +8,7 @@ public class GradesApplication {
 
         Map<String, Student> students = new HashMap<>();
 
-        // Step 3: Populate the map with Student objects
+
         Student alice = new Student("Alice");
         alice.addGrade(90);
         alice.addGrade(85);
