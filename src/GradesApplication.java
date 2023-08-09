@@ -43,7 +43,7 @@ public class GradesApplication {
 
 
             for (String username : students.keySet()) {
-                System.out.print("|" + username + "| ");
+                System.out.print(" | " + username + " | ");
             }
 
             System.out.printf("%n%nWhich student would you like to see more information about?%n");
