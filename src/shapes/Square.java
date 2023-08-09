@@ -1,9 +1,7 @@
 package shapes;
 
-
-public class Rectangle extends Quadrilateral  {
-
-    public Rectangle(double length, double width) {
+public class Square extends Quadrilateral{
+    public Square(double length, double width) {
         super(length, width);
     }
 
@@ -27,5 +25,3 @@ public class Rectangle extends Quadrilateral  {
 
     }
 }
-
-
